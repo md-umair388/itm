@@ -1,0 +1,22 @@
+<html>
+<head>
+
+</head>
+<body>
+	<div style="border:0px">
+		<dialog id="dialog" open style="width:80%;height:80%;background-image:url(a2.jpg);border:2px solid black;top:30px">
+			<p>ANY THING......</p><br/>
+			<img src="a1.jpg" alt="invalid image" style="width:150px;height:160px"><br/><br/>
+			<button id="hide">Close</button>
+		</dialog>
+	</div>
+	<script type="text/JavaScript">
+	(function() {  
+		var dialog = document.getElementById('dialog');   
+		document.getElementById('hide').onclick = function() {  
+			dialog.close();  
+		};  
+	})(); 
+</script>
+</body>
+</html>
